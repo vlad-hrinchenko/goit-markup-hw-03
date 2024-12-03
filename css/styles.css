@@ -7,6 +7,14 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+img {
+    display: block;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .navigation {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -15,6 +23,12 @@ body {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
+    margin-left: 156px;
+   
+}
+.nav {
+    display: flex;
+    gap: 40px;
 }
 .upstudio {
     color: #2e2f42;
@@ -37,6 +51,11 @@ body {
     font-style: normal;
     color: #434455;
 }
+.telemail {
+    display: flex;
+    gap: 40px;
+    margin-right: 156px;
+}
 .mail {
     letter-spacing: 0.02em;
     color: #434455;
@@ -54,21 +73,43 @@ ul {
 }
 .scn {
     background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+}
+.section-text {
+    width: 496px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 188px;
 }
 .title {
+    box-sizing: border-box;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin-bottom: 48px;
 }
 .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     background-color: #4D5AE5;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 170px;
+    height: 56px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 .btn:hover,
 .btn:focus {
