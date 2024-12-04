@@ -24,13 +24,13 @@ img {
     display: flex;
     border-bottom: 1px solid #e7e9fc;
     align-items: center;
+    width: 1440px;
 }
 .container {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0 15px;
-}
-.header-container {
     width: 1158px;
     margin: 0;
 }
@@ -70,11 +70,7 @@ img {
 .nav .link:focus {
     color: #404bbf;
 }
-.subnav {
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
+
 .adres {
     font-style: normal;
     color: #434455;
@@ -82,6 +78,7 @@ img {
 .telemail {
     display: flex;
     gap: 40px;
+    margin-left: 0;
 }
 .mail {
     letter-spacing: 0.02em;
@@ -126,10 +123,12 @@ img {
 }
 
 .tehnologies {
+    display: flex;
     padding: 120px 0;
+    justify-content: center;
 }
 
-.visual-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
