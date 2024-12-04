@@ -21,18 +21,15 @@ img {
     display: block;
 }
 .header {
-    display: flex;
     border-bottom: 1px solid #e7e9fc;
-    align-items: center;
-    width: 1440px;
 }
 .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 15px;
     width: 1158px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .navigation {
@@ -53,8 +50,8 @@ img {
 .list {
     display: flex;
     gap: 40px;
-    margin-top: 0;
-    margin-bottom: 0;
+    align-items: center;
+    flex-wrap: wrap;
     
 }
 .upstudio {
@@ -78,7 +75,6 @@ img {
 .telemail {
     display: flex;
     gap: 40px;
-    margin-left: 0;
 }
 .mail {
     letter-spacing: 0.02em;
