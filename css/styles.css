@@ -52,8 +52,13 @@ img {
     gap: 40px;
     align-items: center;
     flex-wrap: wrap;
-    
 }
+
+.link-header {
+    padding: 24px 0;
+
+}
+
 .upstudio {
     color: #2e2f42;
 }
