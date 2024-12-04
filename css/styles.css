@@ -22,7 +22,6 @@ img {
 }
 .header {
     display: flex;
-    width: 1158px;
     border-bottom: 1px solid #e7e9fc;
     align-items: center;
 }
@@ -30,6 +29,10 @@ img {
     display: flex;
     align-items: center;
     padding: 0 15px;
+}
+.header-container {
+    width: 1158px;
+    margin: 0;
 }
 
 .navigation {
@@ -57,7 +60,7 @@ img {
 .upstudio {
     color: #2e2f42;
 }
-.nav li {
+.nav .list {
     color: #2e2f42;
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -121,9 +124,28 @@ img {
 .btn:focus {
     background-color: #404BBF;
 }
+
+.tehnologies {
+    padding: 120px 0;
+}
+
+.visual-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect (0 0 0 0);
+    overflow: hidden;
+}
+
 .four_p {
     display: flex;
-    max-width: 1128px;
+    max-width: 1128px
+    gap: 24px;
 }
 .once {
     font-weight: 500;
@@ -131,6 +153,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .second {
     letter-spacing: 0.02em;
