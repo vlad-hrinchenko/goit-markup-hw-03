@@ -296,7 +296,7 @@ img {
 }
 
 .footer .logo {
-    display: block;
+    display: inline-block;
 }
 
 .logo__span__footer {
