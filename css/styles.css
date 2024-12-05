@@ -51,6 +51,8 @@ img {
     color: #4d5ae5;
     text-transform: uppercase;
     margin-right: 76px;
+    display: block;
+    margin-bottom: 16px;
 }
 .header__page .container {
     display: flex;
@@ -236,6 +238,10 @@ img {
 
 .portfolio {
     padding-top: 120px;
+}
+
+.portfolio__title {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
