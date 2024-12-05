@@ -238,9 +238,11 @@ img {
 
 .portfolio {
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio__title {
+    margin-bottom: 8px;
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
