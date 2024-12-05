@@ -242,7 +242,6 @@ img {
 }
 
 .portfolio__title {
-    margin-bottom: 8px;
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
@@ -267,11 +266,10 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .portfolio__desk {
-    margin-bottom: 72px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -295,6 +293,10 @@ img {
     max-width: 264px;
     color: #f4f4fd;
     letter-spacing: 0.02em;
+}
+
+.footer .logo {
+    display: block;
 }
 
 .logo__span__footer {
