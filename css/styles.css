@@ -7,32 +7,42 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-a:link {
+
+a {
     text-decoration: none;
 }
+h2,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-top: 0;
+}
 
-ul {
+ul,
+ol {
+    margin-top: 0;
+    margin-top: 0;
+    padding-left: 0;
     list-style-type: none;
 }
+
 * {
     box-sizing: border-box;
 }
+
 img {
     display: block;
 }
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
+
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 15px;
     width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
-.navigation {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -42,63 +52,70 @@ img {
     text-transform: uppercase;
     margin-right: 76px;
 }
-.nav {
+.header__page .container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    
 }
-.list {
+
+.header__nav {
+    display: flex;
+    align-items: baseline;
+}
+
+.list__header {
     display: flex;
     gap: 40px;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
-.link {
+.link__header {
     padding: 24px 0;
-
+    display: block;
 }
 
-.upstudio {
+.logo__span {
     color: #2e2f42;
 }
-.nav .list {
+
+.header__nav {
     color: #2e2f42;
     font-weight: 500;
     letter-spacing: 0.02em;
     padding: 24px 0;
 }
-.nav .link:hover,
-.nav .link:focus {
+
+.header__nav .link__header:hover,
+.header__nav .link__header:focus {
     color: #404bbf;
 }
 
-.adres {
+.address {
     font-style: normal;
     color: #434455;
 }
-.telemail {
+.address__list {
     display: flex;
     gap: 40px;
 }
-.mail {
+
+.address__header {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.adres .mail:hover, 
-.adres .mail:focus {
+
+.adress .address__header:hover, 
+.adress .address__header:focus {
     color: #404bbf;
 }
 
 
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #2E2F42;
     padding: 188px 0;  
 }
-
+section .container {
+    flex-direction: column;
+}
 .title {
     max-width: 496px;
     font-size: 56px;
@@ -107,7 +124,8 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-.btn{
+
+.btn {
     display: block;
     background-color: #4D5AE5;
     color: #ffffff;
@@ -118,6 +136,7 @@ img {
     border: none;
     height: 56px;
 }
+
 .btn:hover,
 .btn:focus {
     background-color: #404BBF;
@@ -136,18 +155,20 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
+
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect (0 0 0 0);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
-.four_p {
+.tehnologies__list {
     display: flex;
     max-width: 1128px
     gap: 24px;
 }
-.once {
+
+.tehnologies__desk {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -155,13 +176,16 @@ img {
     color: #2e2f42;
     margin-bottom: 8px;
 }
-.second {
+
+.tehnologies__info {
     letter-spacing: 0.02em;
 }
-.scn-second {
+
+.team {
     background-color: #F4F4FD;
 }
-.develop {
+
+.team__title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -169,26 +193,31 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.team {
+
+.team__list {
     display: flex;
 }
-.sps {
+
+.team__card {
     background-color: #FFFFFF;
 }
-.first {
+
+.team__name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.parag {
+
+.team__desk {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
 }
-.portf {
+
+.portfolio {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -196,26 +225,31 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.aplication {
+
+.portfolio__desk {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.parag-app {
+
+.portfolio__info {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.down {
+
+.footer {
     background-color: #2E2F42;
 }
-.inc {
+
+.footer__desk {
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
-.downstudio {
+
+.logo__span__footer {
     color: #f4f4fd;
 }
